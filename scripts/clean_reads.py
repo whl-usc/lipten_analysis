@@ -40,7 +40,7 @@ def clean_fastq(file_name, output_file_name):
     print(f"Total reads processed: {total_reads}")
     print(f"Total problematic reads removed: {removed_reads}")
 
+# Usage: clean_fastq(input_file, output_file)
 
-# Usage
 clean_fastq('MUT-CR-1_R1.fastq.gz', 'MUT-CR-1_R1-clean.fastq.gz')
-clean_fastq('MUT-CR-1_R2.fastq.gz', 'MUT-CR-1_R2-clean.fastq.gz')
+#clean_fastq('MUT-CR-1_R2.fastq.gz', 'MUT-CR-1_R2-clean.fastq.gz')
